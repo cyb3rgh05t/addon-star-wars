@@ -1,0 +1,87 @@
+{
+  "id": "com.starwars.addon",
+  "name": "Star Wars Universe",
+  "description": "Explore the Star Wars Universe by sagas, series, eras, and more!",
+  "version": "1.1.1",
+  "logo": "https://www.freeiconspng.com/uploads/logo-star-wars-png-4.png",
+  "background": "https://external-preview.redd.it/jKUmLf4aiMkrTiayTutRXvwp7uJZJGTxcvENapNbWUA.jpg?auto=webp&s=040c57ceb2d3d81a880ee31973d20d712443cef5",
+  "catalogs": [
+    {
+      "type": "StarWars",
+      "id": "sw-movies-series-chronological",
+      "name": "Movies & Series Chronological"
+    },
+    {
+      "type": "StarWars",
+      "id": "sw-movies-series-release",
+      "name": "Movies & Series Release"
+    },
+    {
+      "type": "StarWars",
+      "id": "sw-skywalker-saga",
+      "name": "Skywalker Saga"
+    },
+    {
+      "type": "StarWars",
+      "id": "sw-anthology-films",
+      "name": "Anthology Films"
+    },
+    {
+      "type": "StarWars",
+      "id": "sw-live-action-series",
+      "name": "Live-Action Series"
+    },
+    {
+      "type": "StarWars",
+      "id": "sw-animated-series",
+      "name": "Animated Series"
+    },
+    {
+      "type": "StarWars",
+      "id": "sw-micro-series-shorts",
+      "name": "Micro-Series & Shorts"
+    },
+    {
+      "type": "StarWars",
+      "id": "sw-high-republic-era",
+      "name": "High Republic Era"
+    },
+    {
+      "type": "StarWars",
+      "id": "sw-empire-era",
+      "name": "Empire Era"
+    },
+    {
+      "type": "StarWars",
+      "id": "sw-new-republic-era",
+      "name": "New Republic Era"
+    },
+    {
+      "type": "StarWars",
+      "id": "sw-bounty-hunters-underworld",
+      "name": "Bounty Hunters & Underworld"
+    },
+    {
+      "type": "StarWars",
+      "id": "sw-jedi-sith-lore",
+      "name": "Jedi & Sith Lore"
+    },
+    {
+      "type": "StarWars",
+      "id": "sw-droids-creatures",
+      "name": "Droids & Creatures"
+    }
+  ],
+  "resources": ["catalog"],
+  "types": ["movie", "series"],
+  "idPrefixes": ["sw_"],
+  "behaviorHints": {
+    "configurable": true
+  },
+  "contactEmail": "nayifveliya99@gmail.com",
+
+  "stremioAddonsConfig": {
+    "issuer": "https://stremio-addons.net",
+    "signature": "eyJhbGciOiJkaXIiLCJlbmMiOiJBMTI4Q0JDLUhTMjU2In0..gK6oAmhdeRgHHDHLEzVPCw.I-3gaQ870bLH7JmstUBOJl6SbJAWnuyk7P1bQG1EPWfHXKgDm5aebrbOc8I1YKO_sRkqekGao5CBhFog0nAZONmoH2-9uvgwrsShnQFFCUq7Sf-_BzBgqmLon196Sz9D.QIqBJE16rIO6lIqeplBTnQ"
+  }
+}
