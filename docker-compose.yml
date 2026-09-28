@@ -14,7 +14,7 @@ services:
       - traefik.enable=true
       - traefik.docker.network=proxy
       - traefik.http.routers.addon-star-wars.rule=Host(`${DOMAIN}`)
-      - traefik.http.routers.addon-star-wars.entrypoints=websecure
+      - traefik.http.routers.addon-star-wars.entrypoints=https
       - traefik.http.routers.addon-star-wars.tls=true
       - traefik.http.routers.addon-star-wars.tls.certresolver=dns-cloudflare
       - traefik.http.services.addon-star-wars.loadbalancer.server.port=7777
